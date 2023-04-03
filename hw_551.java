@@ -67,7 +67,7 @@ public class hw_551 {
       }
       in.close();
    }
-   
+
    public static void addHM(Map<String, ArrayList<Integer>> hm, String name, Integer phone) {
       if (hm.containsKey(name)) {
          hm.get(name).add(phone);
@@ -90,5 +90,6 @@ public class hw_551 {
       } else {
          System.out.println("Такого имени нет в спарвочнике");
       }
+      
    }
 }
