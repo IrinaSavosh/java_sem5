@@ -90,6 +90,5 @@ public class hw_551 {
       } else {
          System.out.println("Такого имени нет в спарвочнике");
       }
-      
    }
 }
